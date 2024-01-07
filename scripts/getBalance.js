@@ -5,11 +5,11 @@
 // will compile your contracts, add the Hardhat Runtime Environment's members to the
 // global scope, and execute the script.
 const hre = require("hardhat");
-const tokenContractJSON = require("../artifacts/contracts/MetaToken.sol/MetaToken.json");
+const tokenContractJSON = require("../artifacts/contracts/SimpleNFT.sol/SimpleNFT.json");
 
-const tokenAddress = ""; // place your erc20 contract address here
+const tokenAddress = "0xCAB37359Fc51E84cfbC71cF4ad17646B75D315E2"; // place your erc20 contract address here
 const tokenABI = tokenContractJSON.abi;
-const walletAddress = ""; // place your public address for your wallet here
+const walletAddress = "0xB30585f4c2b942c28CBDF42e387Ba6Cb9a6da446"; // place your public address for your wallet here
 
 async function main() {
 

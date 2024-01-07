@@ -9,8 +9,8 @@ module.exports = {
       url: 'https://rpc-mumbai.maticvigil.com',
       accounts: [process.env.PRIVATE_KEY],
     },
-    goerli: {
-      url: 'https://ethereum-goerli.publicnode.com',
+    sepolia: {
+      url: 'https://sepolia.infura.io/v3/4552a99968694b2198a84c3594a6e830',
       accounts: [process.env.PRIVATE_KEY],
     },
   }
